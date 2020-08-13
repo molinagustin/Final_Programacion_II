@@ -1,0 +1,9 @@
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\bin\Debug\CapaNegocio.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\bin\Debug\CapaNegocio.pdb
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\bin\Debug\CapaNegocio.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\obj\Debug\CapaNegocio.vbprojResolveAssemblyReference.cache
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\obj\Debug\CapaNegocio.Resources.resources
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\obj\Debug\CapaNegocio.vbproj.GenerateResource.Cache
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\obj\Debug\CapaNegocio.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\obj\Debug\CapaNegocio.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaNegocio\obj\Debug\CapaNegocio.pdb

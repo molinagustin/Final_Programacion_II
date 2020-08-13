@@ -1,0 +1,9 @@
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\bin\Debug\UtilidadesSQL.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\bin\Debug\UtilidadesSQL.pdb
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\bin\Debug\UtilidadesSQL.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\obj\Debug\UtilidadesSQL.vbprojResolveAssemblyReference.cache
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\obj\Debug\UtilidadesSQL.Resources.resources
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\obj\Debug\UtilidadesSQL.vbproj.GenerateResource.Cache
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\obj\Debug\UtilidadesSQL.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\obj\Debug\UtilidadesSQL.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\UtilidadesSQL\obj\Debug\UtilidadesSQL.pdb

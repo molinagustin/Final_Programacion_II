@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entLocalidad
+</name>
+</assembly>
+<members>
+<member name="T:entLocalidad.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entLocalidad.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entLocalidad.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entLocalidad.eLocalidad.insertarRegistro(entLocalidad.eLocalidad@)">
+ <summary>
+ Metodo que inserta los datos de una localidad en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+</member>
+<member name="M:entLocalidad.eLocalidad.obtenerRegistro(System.Int32@)">
+ <summary>
+ Metodo para obtener los datos de una una localidad
+ </summary>
+ <param name="IdReg">Numero de ID de la localidad a consultar</param>
+</member>
+<member name="M:entLocalidad.eLocalidad.obtenerLocalidadesProvincia(System.Data.DataTable@,System.Int32)">
+ <summary>
+ Metodo que me permite obtener todas las localidades de una provincia
+ </summary>
+ <param name="tablaLocalidad">La tabla a ser llenada con los datos obtenidos por el metodo</param>
+ <param name="IdProvincia">El Id de la provincia a la cual se hace referencia</param>
+ <remarks></remarks>
+</member>
+<member name="M:entLocalidad.eLocalidad.obtenerLocalidadesProvinciaJoin(System.Data.DataTable@,System.Int32)">
+ <summary>
+ Metodo que me permite obtener todas las localidades de una provincia y con sus tablas relacionadas
+ </summary>
+ <param name="tablaLocalidad">La tabla a ser llenada con los datos obtenidos por el metodo</param>
+ <param name="IdProvincia">El Id de la provincia a la cual se hace referencia</param>
+</member>
+<member name="M:entLocalidad.eLocalidad.actualizarRegistro(entLocalidad.eLocalidad@)">
+ <summary>
+ Funcion que permite actualizar los datos de una localidad
+ </summary>
+ <param name="registroNuevo">Objeto con los datos a ser actualizados</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

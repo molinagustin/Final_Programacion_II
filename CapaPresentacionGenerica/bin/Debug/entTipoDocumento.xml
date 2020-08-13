@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entTipoDocumento
+</name>
+</assembly>
+<members>
+<member name="T:entTipoDocumento.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entTipoDocumento.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entTipoDocumento.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entTipoDocumento.eTipoDocumento.ObtenerTiposDocumentos(System.Data.DataTable@)">
+ <summary>
+ Metodo que me llena un tabla con los tipos de documentos guardados en la base de datos
+ </summary>
+ <param name="tablaTiposDoc">La tabla a llenar con el nombre de los tipos de documentos</param>
+</member>
+</members>
+</doc>

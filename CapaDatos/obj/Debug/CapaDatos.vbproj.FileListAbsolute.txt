@@ -1,0 +1,12 @@
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\bin\Debug\CapaDatos.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\bin\Debug\CapaDatos.pdb
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\bin\Debug\CapaDatos.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\bin\Debug\UtilidadesSQL.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\bin\Debug\UtilidadesSQL.pdb
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\bin\Debug\UtilidadesSQL.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\obj\Debug\CapaDatos.dll
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\obj\Debug\CapaDatos.xml
+d:\documentos\visual studio 2015\Projects\Final_Programacion_II\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entObraSocial
+</name>
+</assembly>
+<members>
+<member name="T:entObraSocial.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entObraSocial.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entObraSocial.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entObraSocial.eObraSocial.insertarRegistro(entObraSocial.eObraSocial@)">
+ <summary>
+ Metodo que inserta los datos de una obra social en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+</member>
+<member name="M:entObraSocial.eObraSocial.obtenerRegistro(System.Int32@)">
+ <summary>
+ Metodo para obtener los datos de una obra social
+ </summary>
+ <param name="IdReg">Numero de ID de la obra social a consultar</param>
+</member>
+<member name="M:entObraSocial.eObraSocial.obtenerRegistros(System.Data.DataTable@)">
+ <summary>
+ Metodo que permite consultar todos los datos de los registros de las Obras Sociales activas
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con datos</param>
+</member>
+<member name="M:entObraSocial.eObraSocial.obtenerRegistrosJoin(System.Data.DataTable@,System.String)">
+ <summary>
+ Metodo que sirve para consultar la base de datos y las tablas relacionadas
+ </summary>
+ <param name="tablaReg">Tabla a llenar con datos</param>
+ <param name="query">Query para la consulta con relacion</param>
+</member>
+<member name="M:entObraSocial.eObraSocial.obtenerRegistrosBaja(System.Data.DataTable@,System.String)">
+ <summary>
+ Metodo que sirve para obtener todos los registros dados de baja
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con los datos</param>
+ <param name="nombreTabla">Nombre de la tabla a consultar</param>
+</member>
+<member name="M:entObraSocial.eObraSocial.actualizarRegistro(entObraSocial.eObraSocial@)">
+ <summary>
+ Funcion que permite actualizar los datos de una obra social
+ </summary>
+ <param name="registroNuevo">Objeto con los datos a ser actualizados</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

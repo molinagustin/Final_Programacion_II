@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBE2C99B-A27F-44B6-878B-DEBAE757964F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CapaPresentacionPersonas.My.MyApplication</StartupObject>
+    <RootNamespace>CapaPresentacionPersonas</RootNamespace>
+    <AssemblyName>CapaPresentacionPersonas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CapaPresentacionPersonas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CapaPresentacionPersonas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDetalleMaestroPacientes.Designer.vb">
+      <DependentUpon>frmDetalleMaestroPacientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleMaestroPacientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogoPac.Designer.vb">
+      <DependentUpon>frmDialogoPac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDialogoPac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogoPro.Designer.vb">
+      <DependentUpon>frmDialogoPro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDialogoPro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoriasClinicas.Designer.vb">
+      <DependentUpon>frmHistoriasClinicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoriasClinicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersona.Designer.vb">
+      <DependentUpon>frmPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTurnos.Designer.vb">
+      <DependentUpon>frmTurnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTurnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVistaPacientes.Designer.vb">
+      <DependentUpon>frmVistaPacientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVistaPacientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVistaProfesionales.Designer.vb">
+      <DependentUpon>frmVistaProfesionales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVistaProfesionales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDetalleMaestroPacientes.resx">
+      <DependentUpon>frmDetalleMaestroPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDialogoPac.resx">
+      <DependentUpon>frmDialogoPac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDialogoPro.resx">
+      <DependentUpon>frmDialogoPro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoriasClinicas.resx">
+      <DependentUpon>frmHistoriasClinicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersona.resx">
+      <DependentUpon>frmPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTurnos.resx">
+      <DependentUpon>frmTurnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVistaPacientes.resx">
+      <DependentUpon>frmVistaPacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVistaProfesionales.resx">
+      <DependentUpon>frmVistaProfesionales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_x16_h.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_drop16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_edit16_h.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-remove.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop-error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estetoscopio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaPresentacionLocalidades\CapaPresentacionLocalidades.vbproj">
+      <Project>{861497e0-0594-4a7b-a752-813b23ffd9b1}</Project>
+      <Name>CapaPresentacionLocalidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaPresentacionObrasSociales\CapaPresentacionObrasSociales.vbproj">
+      <Project>{71564393-6f6a-4c6b-8162-b30580ea1961}</Project>
+      <Name>CapaPresentacionObrasSociales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entAntecedente\entAntecedente.vbproj">
+      <Project>{a55ee603-e3fa-42ed-9707-8baa6f5b2e1e}</Project>
+      <Name>entAntecedente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entGrupoSanguineo\entGrupoSanguineo.vbproj">
+      <Project>{61d1d30f-b766-40c1-ac50-40f5a1f3332b}</Project>
+      <Name>entGrupoSanguineo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entHistoriaClinica\entHistoriaClinica.vbproj">
+      <Project>{3cf1d1d1-1719-481f-a06d-d9da1e49d03b}</Project>
+      <Name>entHistoriaClinica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entLocalidad\entLocalidad.vbproj">
+      <Project>{669abbb4-bf49-4b08-b178-13e1a1120086}</Project>
+      <Name>entLocalidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entObraSocial\entObraSocial.vbproj">
+      <Project>{4562d7f6-7d9a-4168-b1ef-b3ce4295613e}</Project>
+      <Name>entObraSocial</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entPaciente\entPaciente.vbproj">
+      <Project>{831bd537-5e82-4ef4-8c86-a7e7c5a02317}</Project>
+      <Name>entPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entPersona\entPersona.vbproj">
+      <Project>{bf1831bb-63c0-43c2-8aa2-4ce9ca06622b}</Project>
+      <Name>entPersona</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entProfesionales\entProfesionales.vbproj">
+      <Project>{2074f775-6129-42c9-821b-6576e03edff6}</Project>
+      <Name>entProfesionales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entTipoDocumento\entTipoDocumento.vbproj">
+      <Project>{0adf02cb-2ad0-4b82-913e-375af51e1cd4}</Project>
+      <Name>entTipoDocumento</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\entTurnos\entTurnos.vbproj">
+      <Project>{b2d0b736-7e2a-4610-959d-8b2ec6584dcb}</Project>
+      <Name>entTurnos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

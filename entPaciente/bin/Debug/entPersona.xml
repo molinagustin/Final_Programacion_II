@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entPersona
+</name>
+</assembly>
+<members>
+<member name="T:entPersona.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entPersona.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entPersona.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entPersona.ePersona.insertarRegistro(System.Object@,System.String)">
+ <summary>
+ Metodo que permite insertar un registro en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+ <param name="nombreTabla">Nombre de la tabla en la base de datos</param>
+</member>
+<member name="M:entPersona.ePersona.obtenerRegistro(System.Int32@,System.String,System.String)">
+ <summary>
+ Metodo para obtener los datos de un registro en la base de datos
+ </summary>
+ <param name="IdReg">Numero de Id del registro</param>
+ <param name="nombreTabla">Nombre de la tabla a la cual consultar</param>
+ <param name="nombreCampoId">Nombre del campo Id guardado en la tabla</param>
+</member>
+<member name="M:entPersona.ePersona.obtenerRegistros(System.Data.DataTable@,System.String)">
+ <summary>
+ Metodo para obtener todos los registros de una tabla
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con los datos</param>
+ <param name="query">Query armada para la consulta</param>
+</member>
+<member name="M:entPersona.ePersona.obtenerRegistrosBaja(System.Data.DataTable@,System.String)">
+ <summary>
+ Metodo que sirve para obtener todos los registros dados de baja
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con los datos</param>
+ <param name="nombreTabla">Nombre de la tabla a consultar</param>
+</member>
+<member name="M:entPersona.ePersona.actualizarRegistro(System.Object@,System.String,System.String)">
+ <summary>
+ Funcion que me permite actualizar los datos de un registro
+ </summary>
+ <param name="registroNuevo">Objeto con los datos a ser actualizados</param>
+ <param name="nombreTabla">Nombre de la tabla a consultar</param>
+ <param name="nombreCampoId">Nombre del campo Id guardado en la tabla</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

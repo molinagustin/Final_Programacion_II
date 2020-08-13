@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entHistoriaClinica
+</name>
+</assembly>
+<members>
+<member name="T:entHistoriaClinica.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entHistoriaClinica.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entHistoriaClinica.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entHistoriaClinica.eHistoriaClinica.insertarRegistro(entHistoriaClinica.eHistoriaClinica@)">
+ <summary>
+ Metodo que inserta los datos de una historia clinica en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+</member>
+<member name="M:entHistoriaClinica.eHistoriaClinica.obtenerRegistro(System.Int32@)">
+ <summary>
+ Metodo para obtener los datos de una historia clinica
+ </summary>
+ <param name="IdReg">Numero de ID de la historia clinica a consultar</param>
+</member>
+<member name="M:entHistoriaClinica.eHistoriaClinica.obtenerRegistros(System.Data.DataTable@,System.Int32)">
+ <summary>
+ Metodo que permite consultar todos los datos de los registros de las Historias Clinicas de un paciente
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con los datos</param>
+ <param name="IdPaciente">Numero de Id del paciente a consultar</param>
+</member>
+<member name="M:entHistoriaClinica.eHistoriaClinica.obtenerTodosRegistros(System.Data.DataTable@)">
+ <summary>
+ Metodo que permite obtener todas las historias clinicas de la base de datos, indistintamente del paciente que se trate
+ </summary>
+ <param name="tablaReg">Tabla a llenar con datos</param>
+</member>
+</members>
+</doc>

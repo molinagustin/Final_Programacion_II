@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entTurnos
+</name>
+</assembly>
+<members>
+<member name="T:entTurnos.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entTurnos.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entTurnos.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entTurnos.eTurnos.insertarRegistro(entTurnos.eTurnos@)">
+ <summary>
+ Metodo que inserta los datos de un turno en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+</member>
+<member name="M:entTurnos.eTurnos.obtenerRegistro(System.Int32@)">
+ <summary>
+ Metodo para obtener los datos de un turno
+ </summary>
+ <param name="IdReg">Numero de ID del turno a consultar</param>
+</member>
+<member name="M:entTurnos.eTurnos.ObtenerTurnos(System.Data.DataTable@,System.DateTime,System.Int32)">
+ <summary>
+ Metodo que me trae todos los turnos de una fecha
+ </summary>
+ <param name="tabla">tabla a llenar</param>
+ <param name="fecha">fecha consultada</param>
+ <param name="IdProf">Id del profesional a consultar</param>
+</member>
+<member name="M:entTurnos.eTurnos.ObtenerTurnos(System.Data.DataTable@,System.DateTime)">
+ <summary>
+ Metodo que me trae todos los turnos de una fecha
+ </summary>
+ <param name="tabla">tabla a llenar</param>
+ <param name="fecha">fecha consultada</param>
+</member>
+<member name="M:entTurnos.eTurnos.actualizarRegistro(entTurnos.eTurnos@)">
+ <summary>
+ Funcion que permite actualizar los datos de un turno (dar de baja)
+ </summary>
+ <param name="registroNuevo">Objeto con los datos a ser actualizados</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EnviarCorreo
+</name>
+</assembly>
+<members>
+<member name="T:EnviarCorreo.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EnviarCorreo.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EnviarCorreo.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:EnviarCorreo.clsEnviarCorreo.enviarCorreo">
+ <summary>
+ Metodo que permite enviar correos electronicos a los pacientes con turnos asignados y que poseen un correo electronico valido
+ </summary>
+</member>
+<member name="M:EnviarCorreo.eEnviarCorreo.insertarRegistro(EnviarCorreo.eEnviarCorreo@)">
+ <summary>
+ Metodo que inserta los datos del envio de correo en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+</member>
+<member name="M:EnviarCorreo.eEnviarCorreo.obtenerRegistro(System.DateTime@)">
+ <summary>
+ Metodo para obtener los datos de un envio
+ </summary>
+ <param name="Fecha">Fecha a consultar el envio</param>
+</member>
+</members>
+</doc>

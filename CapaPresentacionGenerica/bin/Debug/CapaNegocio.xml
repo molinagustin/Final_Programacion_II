@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CapaNegocio
+</name>
+</assembly>
+<members>
+<member name="T:CapaNegocio.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CapaNegocio.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CapaNegocio.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.insertarNuevoRegistro(System.Object@,System.String)">
+ <summary>
+ Funcion para insertar un nuevo registro en la base de datos
+ </summary>
+ <param name="objetoConDatos">El objeto que contiene las propiedades y valores a insertar</param>
+ <param name="tabla">El nombre de la tabla donde se insertara el registro</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.actualizarRegistro(System.Object,System.Object,System.String,System.String)">
+ <summary>
+ Funcion para actualizar un objeto de la base de datos
+ </summary>
+ <param name="objetoOriginal">El objeto que contiene los datos originales</param>
+ <param name="objetoActualizar">El objeto con datos actualizados</param>
+ <param name="tabla">El nombre de la tabla donde se actualizara el registro</param>
+ <param name="campoId">El nombre de la columna de la clave principal</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.consultaRegistro(System.String,System.String,System.Int32)">
+ <summary>
+ Funcion que permite consultar un registro de una tabla
+ </summary>
+ <param name="tabla">El nombre de la tabla a consultar</param>
+ <param name="campoId">El nombre del campo de la clave principal o ID de la tabla</param>
+ <param name="numeroId">El numero de ID del registro a consultar</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.consultarRegistros(System.String)">
+ <summary>
+ Funcion que permite consultar todos los registros de una tabla
+ </summary>
+ <param name="tabla">El nombre de la tabla a consultar</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.consultarRegistrosActivos(System.String)">
+ <summary>
+ Funcion que trae todos los registros activos de una tabla de la base de datos
+ </summary>
+ <param name="tabla">Nombre de la tabla a consultar</param>
+ <returns></returns>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.consultarRegistrosBaja(System.String)">
+ <summary>
+ Funcion que trae todos los registros no activos de una tabla de la base de datos
+ </summary>
+ <param name="tabla">Nombre de la tabla a consultar</param>
+ <returns></returns>
+</member>
+<member name="M:CapaNegocio.clsArmadoQuery.consultarRegistrosCompleto(System.String,System.String,System.Int32)">
+ <summary>
+ Funcion me trae todos los registros asociados a un ID foraneo de la misma tabla
+ </summary>
+ <param name="tabla">El nombre de la tabla principal</param>
+ <param name="tablaForanea">El nombre de la columna con el ID foraneo</param>
+ <param name="numeroIdForaneo">El numero de ID del registro asociado a la tabla principal</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

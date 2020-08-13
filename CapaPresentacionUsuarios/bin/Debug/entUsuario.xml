@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entUsuario
+</name>
+</assembly>
+<members>
+<member name="T:entUsuario.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entUsuario.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entUsuario.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entUsuario.eUsuario.insertarUsuario(entUsuario.eUsuario@)">
+ <summary>
+ Metodo que inserta un nuevo usuario en la base de datos
+ </summary>
+ <param name="usuario">Un objeto con datos del tipo eUsuario</param>
+</member>
+<member name="M:entUsuario.eUsuario.obtenerUsuario(entUsuario.eUsuario@,System.String)">
+ <summary>
+ Metodo que permite obtener los datos de un usuario de la base de datos (USO SOLO PARA LOGIN)
+ </summary>
+ <param name="objetoUsuario">Objeto donde se guardaran los datos obtenidos</param>
+ <param name="usuario">Nombre de usuario utilizado</param>
+</member>
+<member name="M:entUsuario.eUsuario.obtenerRegistro(System.Int32@)">
+ <summary>
+ Metodo para obtener los datos de un usuario (Por ID)
+ </summary>
+ <param name="IdReg">Numero de ID del usuario a consultar</param>
+</member>
+<member name="M:entUsuario.eUsuario.obtenerRegistros(System.Data.DataTable@,System.String)">
+ <summary>
+ Metodo que permite consultar todos los datos de los registros de los usuarios (Activos y No Activos)
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con datos</param>
+ <param name="query">Query de la consulta</param>
+</member>
+<member name="M:entUsuario.eUsuario.obtenerRegistrosBaja(System.Data.DataTable@,System.String)">
+ <summary>
+ Metodo que sirve para obtener todos los registros dados de baja
+ </summary>
+ <param name="tablaReg">Tabla a ser llenada con los datos</param>
+ <param name="nombreTabla">Nombre de la tabla a consultar</param>
+</member>
+<member name="M:entUsuario.eUsuario.actualizarRegistro(entUsuario.eUsuario@)">
+ <summary>
+ Funcion que permite actualizar los datos de un usuario
+ </summary>
+ <param name="registroNuevo">Objeto con los datos a ser actualizados</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entAntecedente
+</name>
+</assembly>
+<members>
+<member name="T:entAntecedente.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entAntecedente.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entAntecedente.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entAntecedente.eAntecedente.insertarRegistro(entAntecedente.eAntecedente@)">
+ <summary>
+ Metodo que inserta los datos de un antecedente en la base de datos
+ </summary>
+ <param name="registro">Objeto con los datos a insertar</param>
+</member>
+<member name="M:entAntecedente.eAntecedente.obtenerRegistro(System.Int32)">
+ <summary>
+ Metodo que me permite obtener los registros de antecedentes de un paciente
+ </summary>
+ <param name="IdPaciente">Id del paciente cuyos antecedenes buscamos</param>
+</member>
+<member name="M:entAntecedente.eAntecedente.actualizarRegistro(entAntecedente.eAntecedente@)">
+ <summary>
+ Funcion que permite actualizar los datos de un antecedente
+ </summary>
+ <param name="registroNuevo">Objeto con los datos a ser actualizados</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

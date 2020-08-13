@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+entPrivilegio
+</name>
+</assembly>
+<members>
+<member name="T:entPrivilegio.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:entPrivilegio.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:entPrivilegio.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:entPrivilegio.ePrivilegio.ObtenerPrivilegios(System.Data.DataTable@)">
+ <summary>
+ Metodo que me llena un tabla con los privilegios guardados en la base de datos
+ </summary>
+ <param name="tabla">Tabla a llenar</param>
+</member>
+</members>
+</doc>
